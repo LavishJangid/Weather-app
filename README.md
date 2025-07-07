@@ -36,3 +36,19 @@ A simple weather app built with **HTML, CSS, and JavaScript** that fetches real-
 
 ## 📁 Project Structure
 
+---Weather-app/-----
+┣ 📜 index.html
+┣ 📜 style.css (optional if using inlined version)
+┣ 📜 script.js (optional if using inlined version)
+┗ 📜 README.md
+
+
+2. Optional Enhancements (Choose what you want next)
+You can say “yes” to any of these and I’ll implement it:
+
+🌍 Auto-detect user's current location
+🌙 Add light/dark mode toggle
+🌬️ Display more weather info: wind speed, humidity, icon
+📱 Make it mobile-friendly with better styling
+📦 Convert it to a React app
+🔒 Hide your API key (if going more advanced)
