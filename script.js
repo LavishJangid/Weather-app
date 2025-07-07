@@ -1,13 +1,18 @@
-const apiKey = "ee84bdb2c4c74ea7831193634250707";
-
 function getWeather() {
-  const location = document.getElementById("locationInput").value;
+  let location = document.getElementById("locationInput").value.trim();
   const resultDiv = document.getElementById("result");
 
   if (!location) {
     resultDiv.innerHTML = "Please enter a city name.";
     return;
   }
+
+  // Convert to Proper Case (e.g., "new york" → "New York")
+  location = location
+    .toLowerCase()
+    .split(" ")
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 
   fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`)
     .then(response => response.json())
