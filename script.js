@@ -9,7 +9,7 @@ function getWeather() {
     return;
   }
 
-  fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`)
+  fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`)
     .then(response => response.json())
     .then(data => {
       if (data.error) {
