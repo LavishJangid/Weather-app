@@ -8,7 +8,8 @@ A simple weather app built with **HTML, CSS, and JavaScript** that fetches real-
 
 ## 📸 Screenshot
 
-![Weather App Screenshot](screenshot.png) <!-- Add this image to your repo -->
+![Weather App Screenshot](![Screenshot 2025-07-08 014224](https://github.com/user-attachments/assets/957a6291-c791-4404-81cf-007453b3c184)
+) <!-- Add this image to your repo -->
 
 ## 🔧 Features
 
