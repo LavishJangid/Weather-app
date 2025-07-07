@@ -13,7 +13,8 @@ This app fetches real-time weather information, shows the local time of the city
 
 ## 📸 Screenshot
 
-![Weather App Screenshot](screenshot.png)  
+![Weather App Screenshot](![Screenshot 2025-07-08 014224])
+
 > Upload a screenshot as `screenshot.png` in the root directory
 
 ---
