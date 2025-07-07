@@ -1,54 +1,97 @@
-# 🌤️ Weather App
+# 🌦️ Weather App
 
-A simple weather app built with **HTML, CSS, and JavaScript** that fetches real-time weather data using the **WeatherAPI**. Users can enter any city name and instantly see the current temperature and weather condition.
+A modern weather application built using **HTML, CSS, and JavaScript**, powered by **WeatherAPI**.  
+This app fetches real-time weather information, shows the local time of the city, and includes **dark mode**, **auto-location detection**, and a **mobile-friendly design**.
 
-## 🚀 Live Demo
+---
 
-👉 [View App Live](https://lavishjangid.github.io/Weather-app/)
+## 🔗 Live Demo
+
+➡️ [Click to try it live](https://lavishjangid.github.io/Weather-app/)
+
+---
 
 ## 📸 Screenshot
 
-![Weather App Screenshot](![Screenshot 2025-07-08 014224](https://github.com/user-attachments/assets/957a6291-c791-4404-81cf-007453b3c184)
-) <!-- Add this image to your repo -->
+![Weather App Screenshot](screenshot.png)  
+> Upload a screenshot as `screenshot.png` in the root directory
 
-## 🔧 Features
+---
 
-- 🌎 Search weather for any city
-- 🌡️ Displays temperature in °C
-- 🌥️ Shows current weather condition
-- 🔌 Uses [WeatherAPI](https://www.weatherapi.com/) for real-time data
-- 📱 Fully responsive and clean UI
-- 🚀 Hosted via GitHub Pages
+## 💡 Features
+
+- ✅ **Search any city** and get real-time weather
+- ✅ **Auto-detect your location** via IP address
+- ✅ Shows:
+  - 🌡️ Temperature (°C)
+  - 📝 Weather condition
+  - 💨 Wind speed
+  - 💧 Humidity
+  - 🕒 Local time of the city
+- ✅ **Weather icon** for visual appeal
+- ✅ **Dark mode** toggle (🌓)
+- ✅ Fully **responsive UI** for mobile and desktop
+- ✅ Hosted with **GitHub Pages**
+
+---
 
 ## 🛠️ Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- WeatherAPI
-- GitHub Pages
+| Frontend | API | Hosting |
+|----------|-----|---------|
+| HTML5 + CSS3 + JavaScript | [WeatherAPI](https://www.weatherapi.com/) | GitHub Pages |
+
+---
+
+## 📁 Folder Structure
+
+📦 Weather-app/
+┣ 📜 index.html # All code inlined (HTML, CSS, JS)
+┣ 📜 screenshot.png # Optional - for README
+┗ 📜 README.md # This file
+
+---
+
+## 🔐 API Used
+
+- **WeatherAPI**: for fetching real-time weather data  
+- **ip-api**: for detecting user's current location via IP
+
+> Note: Current API key used is a public one. You are advised to get your own free API key from [weatherapi.com](https://www.weatherapi.com/).
+
+---
 
 ## 🧠 What I Learned
 
-- Using external APIs in JavaScript
-- Fetching and displaying dynamic data
-- Hosting a project on GitHub Pages
+- Integrating REST APIs into frontend projects
+- Working with `fetch()` and JSON parsing
+- Handling user input and errors
+- Creating responsive layouts
+- Building dark mode using CSS + JavaScript
+- Hosting projects on GitHub Pages
 
-## 📁 Project Structure
+---
 
----Weather-app/-----
-┣ 📜 index.html
-┣ 📜 style.css (optional if using inlined version)
-┣ 📜 script.js (optional if using inlined version)
-┗ 📜 README.md
+## 🤝 Contribution
 
+Suggestions and feedback are welcome! Feel free to fork the repo and enhance the app.
 
-2. Optional Enhancements (Choose what you want next)
-You can say “yes” to any of these and I’ll implement it:
+---
 
-🌍 Auto-detect user's current location
-🌙 Add light/dark mode toggle
-🌬️ Display more weather info: wind speed, humidity, icon
-📱 Make it mobile-friendly with better styling
-📦 Convert it to a React app
-🔒 Hide your API key (if going more advanced)
+## 📬 Connect with Me
+
+**Lavish Jangid**  
+[🔗 LinkedIn](https://www.linkedin.com/in/lavishjangid/)  
+[🐙 GitHub](https://github.com/LavishJangid)
+
+---
+
+## 📌 Future Enhancements (optional ideas)
+
+- [ ] Toggle °C / °F
+- [ ] 5-day forecast
+- [ ] Voice search or autocomplete
+- [ ] UI animations & weather-based themes
+
+---
+⭐ Don’t forget to give this project a star if you liked it!
